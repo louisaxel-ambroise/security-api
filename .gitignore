@@ -1,0 +1,14 @@
+.vs
+.vscode
+
+# Csharp files
+bin
+obj
+*.suo
+*.user
+*appsettings.*.json
+*.pubxml
+launchSettings.json
+
+# Custom files
+*.ip
