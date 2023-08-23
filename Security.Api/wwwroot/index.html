@@ -1,0 +1,40 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Security API</title>
+    <style>
+        body {
+            margin: auto;
+            width: 500px;
+            background:#eee;
+            color: #444;
+            font-family: Consolas, sans-serif;
+            font-size:13px;
+        }
+        .code {
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        a{
+            color:#444;
+            padding:2px;
+            text-decoration: none;
+        }
+        a:hover, a:focus {
+            background-color: yellow;
+        }
+        ul li{
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Security API</h1>
+    <p>Available endpoints:</p>
+    <ul>
+        <li><a href="live"><span class="code">GET /live</span> - Access the Motion LiveStream</a></li>
+        <li><a href="ip"><span class="code">GET /ip</span> - Get the current registered IP address</a></li>
+        <li><a href="register"><span class="code">GET /register</span> -Set caller's IP address as current IP</a></li>
+    </ul>
+</body>
+</html>
